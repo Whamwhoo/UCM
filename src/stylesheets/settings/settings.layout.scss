@@ -1,3 +1,4 @@
+//Spacers
 $spacer: 1rem;
 
 $spacer-sm: $spacer/2;
@@ -5,3 +6,7 @@ $spacer-xs: $spacer-sm/2;
 
 $spacer-lg: $spacer*2;
 $spacer-xl: $spacer-lg*2;
+
+//Breakpoints
+$bp-sm: 414px;
+$bp-lg: 768px;
