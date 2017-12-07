@@ -1,0 +1,32 @@
+.header {
+  background-color: $c-secondary;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .header-logo,
+  .header-brand {
+    width: 50%;
+  }
+  .header-logo {
+    background-color: $c-light;
+  }
+
+  .header-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .name {
+    font-size: 1.5rem;
+    padding-bottom: 0.25rem;
+  }
+
+  .name-sub {
+    font-size: 0.5rem;
+  }
+}

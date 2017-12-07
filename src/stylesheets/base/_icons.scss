@@ -1,0 +1,23 @@
+$social-colours: (
+  facebook: #3b5998,
+  twitter: #1da1f2,
+  instagram: #405de6
+);
+
+.icon {
+  display: block;
+  svg {
+    height: 3rem;
+    width: 3rem;
+  }
+  &.icon--sc-facebook {
+    svg {
+      fill: map-get($social-colours, facebook);
+    }
+  }
+  &.icon--sc-twitter {
+    svg {
+      fill: map-get($social-colours, twitter);
+    }
+  }
+}

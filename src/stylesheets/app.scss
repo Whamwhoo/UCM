@@ -1,0 +1,12 @@
+//setting files
+@import "settings/settings";
+
+//base
+@import "base/typography";
+@import "base/layout";
+@import "base/icons";
+
+//shared
+@import "components/header/header";
+@import "components/footer/footer";
+@import "components/hero/hero";

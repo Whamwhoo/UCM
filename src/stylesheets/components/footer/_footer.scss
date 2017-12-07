@@ -1,0 +1,32 @@
+.footer {
+  background-color: $c-light;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  .footer__social {
+    display: flex;
+    justify-content: center;
+
+    .footer__socialLink {
+      display: block;
+      text-decoration: none;
+      margin: 0 2rem;
+
+      &:hover,
+      &:focus {
+        svg {
+          fill: $c-secondary;
+        }
+      }
+    }
+  }
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 30rem;
+  padding: $spacer-sm $spacer;
+}
