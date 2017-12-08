@@ -1,4 +1,6 @@
 .header {
+  border-radius: 0 0 1rem 1rem;
+  overflow: hidden;
   background-color: $c-secondary;
   flex: none;
   display: flex;
@@ -7,7 +9,7 @@
   align-items: stretch;
   position: relative;
   margin-bottom: 4vw;
-
+  
   .header-logo,
   .header-brand {
     width: 50%;
@@ -16,7 +18,7 @@
   .header-logo {
     background-color: $c-light;
   }
-
+  
   .header-brand {
     display: flex;
     flex-direction: column;
@@ -25,16 +27,16 @@
     text-align: center;
     
   }
-
+  
   .name {
     font-size: 1.5rem;
     padding-bottom: 0.25rem;
   }
-
+  
   .name-sub {
     font-size: 0.5rem;
   }
-
+  
   .header-nav {
     height: 8vw;
     width: 8vw;
@@ -48,6 +50,12 @@
     right: $spacer;
     border-radius: 100%;
     transform: translateY(50%);
+    &:hover,
+    &:focus {
+      animation-name: navup;
+      animation-duration: 100ms;
+      bottom: 1rem;
+    }
   }
 }
 
@@ -94,5 +102,13 @@
   to {
     top: 2rem;
     right: 2rem;
+  }
+}
+@keyframes navup {
+  from {
+    bottom: 0;
+  }
+  to {
+    bottom: 1rem;
   }
 }
