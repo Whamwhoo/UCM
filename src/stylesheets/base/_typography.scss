@@ -7,7 +7,7 @@ blockquote {
   font-style: italic;
   font-weight: bold;
   font-size: 0.75rem;
-  color: $c-75;
+  color: darken($c-light, 5%);
 }
 
 figcaption {
