@@ -1,7 +1,21 @@
 .article-promo {
     padding: $spacer-sm $spacer;
+    
     a {
         display: block;
+        img,
+        .overlay {
+            border-radius: 1rem;
+        }
+    }
+    a:hover,
+    :focus {
+        border: $spacer-xs solid $c-light;
+        border-radius: 1rem;
+        img,
+        .overlay {
+            border-radius: .75rem;
+        }
     }
     .overlay {
         margin: 0;
@@ -10,6 +24,10 @@
         position: relative;
         .overlay-panel {
             background-color: rgba($c-dark, 0.8);
+            background: -webkit-linear-gradient(left bottom, rgba($c-dark, 0), $c-dark); /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient(left bottom, rgba($c-dark, 0), $c-dark); /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient(left bottom, rgba($c-dark, 0), $c-dark); /* For Firefox 3.6 to 15 */
+            background: linear-gradient(to left bottom, rgba($c-dark, 0), $c-dark); /* Standard syntax (must be last) */
             color: $c-light;
             bottom: 0;
             left: 0;
@@ -17,6 +35,7 @@
             right: 0;
             top: auto;
             text-decoration: none;
+            padding: 2rem 0.5rem;
         }
     }
 }
