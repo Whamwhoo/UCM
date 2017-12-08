@@ -1,35 +1,35 @@
 {
   "articles": [
     {
-      "src": "/images/Jan-BogCh2-square.jpg",
+      "src": "images/Jan-BogCh2-square.jpg",
       "title": "Title",
       "date": "01",
       "desc": "a",
       "promo": true
     },
     {
-      "src": "/images/Kadena-Gora-Church-square.jpg",
+      "src": "images/Kadena-Gora-Church-square.jpg",
       "title": "Title 2",
       "date": "02",
       "desc": "b",
       "promo": true
     },
     {
-      "src": "/images/Korobivka-Church-square.jpg",
+      "src": "images/Korobivka-Church-square.jpg",
       "title": "Title 3",
       "date": "03",
       "desc": "c",
       "promo": false
     },
     {
-      "src": "/images/Kadena-Gora-Church-square.jpg",
+      "src": "images/Kadena-Gora-Church-square.jpg",
       "title": " Title 4",
       "date": "04",
       "desc": "d",
       "promo": true
     },
     {
-      "src": "/images/Korobivka-Church-square.jpg",
+      "src": "images/Korobivka-Church-square.jpg",
       "title": " Title 5",
       "date": "05",
       "desc": "e",
