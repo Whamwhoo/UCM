@@ -1,9 +1,10 @@
 <section class="article-list">
     <h2>Articles</h2>
-    {% for item in articles %}
+    <div class="article-list__inner">
+        {% for item in articles %}
         {% if item.promo %}
-            {{ articlePromo (item)}}
+        {{ articlePromo (item)}}
         {% endif %}
-    {% endfor %}
-    {{ articlePromo ('/images/Korobivka-Church-square.jpg', 'Title 3', 'Hello this is my article 3.', '32/10/18') }}
+        {% endfor %}
+    </div>
 </section>

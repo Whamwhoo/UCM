@@ -5,10 +5,13 @@
   flex-direction: row;
   justify-content: center;
   align-items: stretch;
+  position: relative;
+  margin-bottom: 4vw;
 
   .header-logo,
   .header-brand {
     width: 50%;
+    padding: 1rem;
   }
   .header-logo {
     background-color: $c-light;
@@ -20,7 +23,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 1rem;
+    
   }
 
   .name {
@@ -30,5 +33,66 @@
 
   .name-sub {
     font-size: 0.5rem;
+  }
+
+  .header-nav {
+    height: 8vw;
+    width: 8vw;
+    max-width: 3rem;
+    max-height: 3rem;
+    min-width: 1rem;
+    min-height: 1rem;
+    background: red;
+    position: absolute;
+    bottom: 0;
+    right: $spacer;
+    border-radius: 100%;
+    transform: translateY(50%);
+  }
+}
+
+@include mq($bp-lg) {
+
+  .header {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+    .header-logo,
+    .header-brand {
+      width: 100%;
+      padding: 1rem;
+    }
+
+    .name {
+      font-size: 3rem !important;      
+    }
+    .name-sub {
+      font-size: 1rem !important;      
+    }
+
+    .header-nav {
+        top: 1rem;
+        right: 1rem;
+        transform: translate(50%, -50%);
+        &:hover,
+        &:focus {
+          animation-name: slideView;
+          animation-duration: 100ms;
+          top: 2rem;
+          right: 2rem;
+        }
+      }
+    }
+  }
+
+@keyframes slideView {
+  from {
+    top: 1rem;
+    right: 1rem;
+  }
+  to {
+    top: 2rem;
+    right: 2rem;
   }
 }

@@ -19,7 +19,7 @@
       "title": "Title 3",
       "date": "03",
       "desc": "c",
-      "promo": false
+      "promo": true
     },
     {
       "src": "images/Kadena-Gora-Church-square.jpg",

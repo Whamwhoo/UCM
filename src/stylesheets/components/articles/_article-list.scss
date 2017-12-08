@@ -3,3 +3,14 @@
         @include visuallyhidden;
     }
 }
+
+@include mq($bp-lg) {
+    .article-list {
+        .article-list__inner {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+}
+    

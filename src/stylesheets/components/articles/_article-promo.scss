@@ -1,19 +1,16 @@
+$promos-per-row: 3;
+
 .article-promo {
     padding: $spacer-sm $spacer;
+
+    img {
+        transition: transform 250ms ease-in-out;
+    }
     
     a {
         display: block;
     }
-    a:hover,
-    :focus {
-        border: $spacer-xs solid $c-light;
-        border-radius: 1rem;
-        overflow: hidden;
-        img,
-        .overlay {
-            border-radius: 0;
-        }
-    }
+
     .overlay {
         margin: 0;
         max-width: 100%;
@@ -21,10 +18,7 @@
         position: relative;
         .overlay-panel {
             background-color: rgba($c-dark, 0.8);
-            background: -webkit-linear-gradient(left bottom, rgba($c-dark, 0), $c-dark); /* For Safari 5.1 to 6.0 */
-            background: -o-linear-gradient(left bottom, rgba($c-dark, 0), $c-dark); /* For Opera 11.1 to 12.0 */
-            background: -moz-linear-gradient(left bottom, rgba($c-dark, 0), $c-dark); /* For Firefox 3.6 to 15 */
-            background: linear-gradient(to left bottom, rgba($c-dark, 0), $c-dark); /* Standard syntax (must be last) */
+            background: linear-gradient(235deg, rgba($c-dark, 0) 0%, $c-dark 100%); 
             color: $c-light;
             bottom: 0;
             left: 0;
@@ -34,5 +28,36 @@
             text-decoration: none;
             padding: 2rem 0.5rem;
         }
+    }
+
+    &:hover,
+    &:focus {
+        a {
+            border: $spacer-xs solid $c-light;
+            border-radius: 1rem;
+            overflow: hidden;
+        }
+
+        img,
+        .overlay {
+            border-radius: 0;
+        }
+
+        .overlay {
+            .overlay-panel {
+                background-color: rgba($c-dark, 0.8);
+                background: linear-gradient(235deg, rgba($c-dark, 0.4) 0%, $c-dark 100%); 
+            }
+        }
+
+        img {
+            transform: scale(1.1);
+        }
+    }
+}
+
+@include mq($bp-lg) {
+    .article-promo {
+        width: 100% / $promos-per-row;
     }
 }

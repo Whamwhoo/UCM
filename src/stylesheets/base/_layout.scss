@@ -12,6 +12,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+  background-color: $c-primary;
 }
 
 .body {
@@ -20,7 +21,6 @@ body {
 }
 
 .content {
-  background-color: $c-primary;
   flex: 1 0 auto;
 }
 
@@ -38,4 +38,23 @@ blockquote {
 .wrapper-round {
   border-radius: 1rem;
   overflow: hidden;
+}
+
+@include mq($bp-lg){
+  .body {
+    .header {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 15rem;
+      height: 75vh;
+      border-radius: 1rem;
+      margin: 1rem;
+      overflow: hidden;
+    }
+
+    >div {
+      padding-left: 16rem;
+    }
+  }
 }
