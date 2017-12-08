@@ -1,0 +1,21 @@
+.article-promo {
+    a {
+        display: block;
+    }
+    .overlay {
+        margin: 0;
+        max-width: 100%;
+        overflow: hidden;
+        position: relative;
+        .overlay-panel {
+            background-color: rgba($c-dark, 0.8);
+            color: $c-light;
+            bottom: 0;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: auto;
+            text-decoration: none;
+        }
+    }
+}

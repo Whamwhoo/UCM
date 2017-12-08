@@ -7,3 +7,4 @@ $c-75: darken($c-light, 75%);
 
 $c-primary: lighten($c-dark, 50%);
 $c-secondary: map-get($c-pallette, yellow);
+$c-tertiary: map-get($c-pallette, blue);

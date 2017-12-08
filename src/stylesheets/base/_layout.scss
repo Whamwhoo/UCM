@@ -21,7 +21,7 @@ body {
 
 .content {
   background-color: $c-primary;
-  flex-grow: 1;
+  flex: 1 0 auto;
 }
 
 img {
@@ -30,6 +30,7 @@ img {
 }
 
 h1,
-p {
+p,
+blockquote {
   margin: 0;
 }

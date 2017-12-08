@@ -1,8 +1,10 @@
 .header {
   background-color: $c-secondary;
+  flex: none;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: stretch;
 
   .header-logo,
   .header-brand {

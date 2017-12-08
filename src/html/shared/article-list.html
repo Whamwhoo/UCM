@@ -1,0 +1,9 @@
+<section class="article-list">
+    <h2>Articles</h2>
+    {% for item in articles %}
+        {% if item.promo %}
+            {{ articlePromo (item)}}
+        {% endif %}
+    {% endfor %}
+    {{ articlePromo ('/images/Korobivka-Church-square.jpg', 'Title 3', 'Hello this is my article 3.', '32/10/18') }}
+</section>

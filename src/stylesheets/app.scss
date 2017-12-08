@@ -1,6 +1,9 @@
 //setting files
 @import "settings/settings";
 
+//mixins
+@import "mixins/mixins";
+
 //base
 @import "base/typography";
 @import "base/layout";
@@ -10,3 +13,8 @@
 @import "components/header/header";
 @import "components/footer/footer";
 @import "components/hero/hero";
+
+//articles
+@import "components/articles/article-list";
+@import "components/articles/article-promo";
+
