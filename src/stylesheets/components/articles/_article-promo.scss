@@ -3,18 +3,15 @@
     
     a {
         display: block;
-        img,
-        .overlay {
-            border-radius: 1rem;
-        }
     }
     a:hover,
     :focus {
         border: $spacer-xs solid $c-light;
         border-radius: 1rem;
+        overflow: hidden;
         img,
         .overlay {
-            border-radius: .75rem;
+            border-radius: 0;
         }
     }
     .overlay {
