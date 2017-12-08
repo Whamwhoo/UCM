@@ -1,0 +1,16 @@
+.info-list {
+    h2 { 
+        @include visuallyhidden;
+    }
+}
+
+@include mq($bp-lg) {
+    .info-list {
+        .info-list__inner {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+}
+    
