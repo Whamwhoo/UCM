@@ -1,7 +1,9 @@
 .hero {
-  background-color: $c-tertiary;
+  padding: $spacer;
 }
 
 blockquote {
   padding: $spacer $spacer-sm;
+  background-color: $c-tertiary;
 }
+
