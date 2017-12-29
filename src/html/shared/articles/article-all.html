@@ -1,0 +1,12 @@
+<section class="article-list">
+    <div class="textBlock-box">
+        <div class="wrapper-round header-box">
+            <h3>Articles</h3>
+        </div>
+    </div>
+    <div class="article-list__inner">
+    {% for item in articles %}
+    {{ articlePromo (item)}}
+    {% endfor %}
+    </div>
+</section>

@@ -34,6 +34,13 @@
       "date": "05",
       "desc": "e",
       "promo": true
+    },
+    {
+      "src": "images/Jan-BogCh2-square.jpg",
+      "title": "Title 6",
+      "date": "06",
+      "desc": "f",
+      "promo": false
     }
   ]
 }
