@@ -2,11 +2,45 @@
 
 .textBlock-box {
     padding: $spacer-sm $spacer;
-    width: 100%;
     .wrapper-round {
+        width: 100%;
         padding: $spacer;
         display: block;
         background-color: $c-light;
         text-align: center;
+        img  {
+            width: 100vw;
+            margin: -1em;
+
+        }
+    }
+}
+
+
+@include mq($bp-lg) {
+
+    .textBlock-box {
+        .wrapper-round {
+            img  {
+                width: 110%;    
+            }
+        }
+    }
+}
+
+@include mq($bp-xl) {
+    .article-container {
+        .textBlock-box {
+            padding-right: 0.5rem;
+            .wrapper-round {
+                float: right;
+                width: 50%;
+            }
+        }
+        .textBlock-box .img {
+            margin-top: 1rem;
+            padding-right: 0;
+        }
+
     }
 }

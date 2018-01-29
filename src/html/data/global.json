@@ -40,7 +40,7 @@
       "title": "Title 6",
       "date": "06",
       "desc": "f",
-      "promo": false
+      "promo": true
     }
   ]
 }
