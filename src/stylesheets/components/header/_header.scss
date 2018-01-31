@@ -44,7 +44,7 @@
     max-height: 3rem;
     min-width: 1rem;
     min-height: 1rem;
-    background: red;
+    background: $c-light;
     position: absolute;
     bottom: 0;
     right: $spacer;
@@ -52,9 +52,19 @@
     transform: translateY(50%);
     &:hover,
     &:focus {
-      animation-name: navup;
-      animation-duration: 100ms;
+      animation-name: navup, tint-white;
+      animation-duration: 200ms;
       bottom: 1rem;
+      background: darken($c-light, 20%)
+    }
+  }
+  @include mq($bp-lg) {
+    .header-nav {
+      background: $c-secondary;
+      &:hover,
+      &:focus {
+        background: darken($c-secondary, 20%)
+      }
     }
   }
 }
@@ -85,8 +95,7 @@
         transform: translate(50%, -50%);
         &:hover,
         &:focus {
-          animation-name: slideView;
-          animation-duration: 100ms;
+          animation-name: slideView, tint-blue;
           top: 2rem;
           right: 2rem;
         }
@@ -112,3 +121,20 @@
     bottom: 1rem;
   }
 }
+@keyframes tint-blue {
+  from {
+    background: $c-secondary;
+  }
+  to {
+    background: darken($c-secondary, 20%);
+  }
+}
+@keyframes tint-white {
+  from {
+    background: $c-light;
+  }
+  to {
+    background: darken($c-light, 20%);
+  }
+}
+

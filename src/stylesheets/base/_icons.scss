@@ -24,7 +24,12 @@ $social-colours: (
     svg {
       height: 100%;
       width: 100%;
-      fill: $c-light;
+      fill: $c-secondary;
+    }
+    @include mq($bp-lg) {
+      svg {
+        fill: $c-light;
+      }
     }
   }
 }
