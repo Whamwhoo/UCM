@@ -46,15 +46,14 @@
     min-height: 1rem;
     background: $c-light;
     position: absolute;
-    bottom: 0;
-    right: $spacer;
+    bottom: $spacer*1.5;
+    right: $spacer-sm;
     border-radius: 100%;
     transform: translateY(50%);
     &:hover,
     &:focus {
-      animation-name: navup, tint-white;
+      animation-name: tint-white;
       animation-duration: 200ms;
-      bottom: 1rem;
       background: darken($c-light, 20%)
     }
   }
