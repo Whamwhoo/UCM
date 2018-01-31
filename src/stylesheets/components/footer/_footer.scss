@@ -28,13 +28,13 @@
 }
 
 .footer-container {
-  min-height: 100%;
-  margin-bottom: -10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   max-width: 30rem;
   padding: $spacer-sm $spacer;
+  min-height: 100%;
+  margin-bottom: -10px;
 }
 
 .footer-
