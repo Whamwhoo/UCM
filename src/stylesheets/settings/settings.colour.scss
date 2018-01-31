@@ -1,10 +1,10 @@
-$c-pallette: (black: #000, white: #fff, blue: #0066cc, yellow: #ffcc00) !default;
+$c-pallette: (black: #000, white: #fff, blue: #6299E0/*, yellow: #ffcc00*/) !default;
 
 $c-dark: map-get($c-pallette, black);
 $c-light: map-get($c-pallette, white);
 $c-25: darken($c-light, 25%);
 $c-75: darken($c-light, 75%);
 
-$c-primary: lighten($c-dark, 50%);
-$c-secondary: map-get($c-pallette, yellow);
-$c-tertiary: map-get($c-pallette, blue);
+$c-primary: #bbb;
+$c-secondary: map-get($c-pallette, blue);
+// $c-tertiary: map-get($c-pallette, yellow);
