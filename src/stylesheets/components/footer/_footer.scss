@@ -1,12 +1,15 @@
 .footer {
+  float: left;
+  width: 100%;
   border-radius: 1rem 1rem 0 0;
   overflow: hidden;
   background-color: $c-light;
   display: flex;
-  flex: none;
+  flex-shrink: 0;
   justify-content: center;
   text-align: center;
   margin-top: $spacer-sm;
+  
 
   .footer__social {
     display: flex;
@@ -34,7 +37,6 @@
   max-width: 30rem;
   padding: $spacer-sm $spacer;
   min-height: 100%;
-  margin-bottom: -10px;
 }
 
 .footer-

@@ -1,46 +1,52 @@
 {
   "articles": [
     {
-      "src": "images/Jan-BogCh2-square.jpg",
-      "title": "Title",
-      "date": "01",
-      "desc": "a",
-      "promo": true
+      "src": "images/zolo-square.png",
+      "title": "Zolotonosha Baptist Church",
+      "date": "01/02/18",
+      "desc": "April 1993 The first visit made to Ukraine...",
+      "promo": true,
+      "href": "zolotonosha-church.html"
     },
     {
       "src": "images/Kadena-Gora-Church-square.jpg",
       "title": "Title 2",
       "date": "02",
       "desc": "b",
-      "promo": true
+      "promo": false,
+      "href": ""
     },
     {
       "src": "images/Korobivka-Church-square.jpg",
       "title": "Title 3",
       "date": "03",
       "desc": "c",
-      "promo": true
+      "promo": false,
+      "href": ""
     },
     {
       "src": "images/Kadena-Gora-Church-square.jpg",
       "title": " Title 4",
       "date": "04",
       "desc": "d",
-      "promo": true
+      "promo": false,
+      "href": ""
     },
     {
       "src": "images/Korobivka-Church-square.jpg",
       "title": " Title 5",
       "date": "05",
       "desc": "e",
-      "promo": true
+      "promo": false,
+      "href": ""
     },
     {
       "src": "images/Jan-BogCh2-square.jpg",
       "title": "Title 6",
       "date": "06",
       "desc": "f",
-      "promo": true
+      "promo": false,
+      "href": ""
     }
   ]
 }

@@ -8,39 +8,80 @@
         display: block;
         background-color: $c-light;
         text-align: center;
+        height: 100%;
         img  {
             width: 100vw;
-            margin: -1em;
+            // margin: -1em;
 
         }
-    }
-}
-
-
-@include mq($bp-lg) {
-
-    .textBlock-box {
-        .wrapper-round {
-            img  {
-                width: 110%;    
+        .-facade {
+            display: none;
+            padding: 2rem;
+            margin: 0 2rem 0 -2rem;
+            width: 100%;
+            position: relative;
+            margin-top: -20rem;
+            background-color: rgba($c-dark, 0.8);
+            background: linear-gradient(235deg, rgba($c-dark, 0.4) 0%, $c-dark 100%);
+            color: $c-light;
+            justify-content: center;
+            flex-grow: 1;
+            p {
+                max-width: 50%;
+                text-align: center;
             }
         }
     }
+    .img-expand {
+        padding: 0 !important;
+
+    }
 }
+
+
 
 @include mq($bp-xl) {
-    .article-container {
-        .textBlock-box {
-            padding-right: 0.5rem;
-            .wrapper-round {
-                float: right;
-                width: 50%;
+    
+    .textBlock-box {
+
+        .wrapper-round {
+            img  {
+                max-width: 100%;
             }
         }
-        .textBlock-box .img {
-            margin-top: 1rem;
-            padding-right: 0;
-        }
+    }
+    .a-text {
+        max-width: 25%;
+        float: right;
 
     }
+    // .text-m {
+    //     visibility: hidden;
+    //     display: none;
+    // }
+    // .img-facade {
+    //     display: flex !important;
+    // }
+    .img-box {
+        object-fit: contain;
+        max-width: 75%;
+        float: left;
+    }
 }
+
+// @include mq($bp-xl) {
+    // .article-container {
+    //     .textBlock-box {
+    //         padding-right: 0.5rem;
+    //         .wrapper-round {
+    //             float: right;
+    //             width: 50%;
+    //         }
+    //     }
+    //     .textBlock-box .img {
+    //         margin-top: 1rem;
+    //         padding-right: 0;
+    //     }
+
+    // }
+// }
