@@ -20,6 +20,20 @@
       "desc": "The time came when a man made his way to Zolotonosha Church...",
       "promo": true,
       "href": "Chapaivka-Blagodatne-church.html"
+    },
+    {
+      "src": "images/Boguslavets-square.jpg",
+      "title": "Boguslavets Church",
+      "desc": "Boguslavets. This is a very interesting name. It means Glory to God...",
+      "promo": true,
+      "href": "Boguslavets-church.html"
+    },
+    {
+      "src": "images/Mar Koro1-square.jpg",
+      "title": "Korobivka Church",
+      "desc": "Korobivka Church is one of three daughter churches of Blagodatne Church...",
+      "promo": true,
+      "href": "Korobivka-church.html"
     }
   ]
 }
