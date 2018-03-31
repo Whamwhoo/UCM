@@ -4,6 +4,17 @@
     }
 }
 
+@include mq($bp-xxl) {
+    .article-container {
+        p {
+            font-size: 20px;
+        }
+        h3 {
+            font-size: 25px;
+        }
+    }
+}
+
 @include mq($bp-lg) {
     .info-list {
         .info-list__inner {
