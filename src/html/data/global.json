@@ -34,6 +34,13 @@
       "desc": "Korobivka Church is one of three daughter churches of Blagodatne Church...",
       "promo": true,
       "href": "Korobivka-church.html"
+    },
+    {
+      "src": "images/Kadena-Gora-Church-square.jpg",
+      "title": "Kadena Gora Church",
+      "desc": "Kadena Gora is a small village not far from the River Dnieper...",
+      "promo": true,
+      "href": "Kadena-Gora-church.html"
     }
   ]
 }
