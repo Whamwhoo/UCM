@@ -17,8 +17,8 @@ $promos-per-row: 3;
         overflow: hidden;
         position: relative;
         .overlay-panel {
-            background-color: rgba($c-dark, 0.8);
-            background: linear-gradient(235deg, rgba($c-dark, 0) 0%, $c-dark 100%); 
+            // background-color: rgba($c-dark, 0.8);
+            // background: linear-gradient(235deg, rgba($c-dark, 0) 0%, $c-dark 100%); 
             color: $c-light;
             bottom: 0;
             left: 0;
@@ -45,8 +45,8 @@ $promos-per-row: 3;
 
         .overlay {
             .overlay-panel {
-                background-color: rgba($c-dark, 0.8);
-                background: linear-gradient(235deg, rgba($c-dark, 0.4) 0%, $c-dark 100%); 
+                // background-color: rgba($c-dark, 0.8);
+                // background: linear-gradient(235deg, rgba($c-dark, 0.4) 0%, $c-dark 100%); 
             }
         }
 
