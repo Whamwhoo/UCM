@@ -48,6 +48,13 @@
       "desc": "There is a small group in this village which has been meeting every Sunday for several years...",
       "promo": true,
       "href": "Denghi-church.html"
+    },
+    {
+      "src": "images/Lukashivka-square.jpg",
+      "title": "Lukashivka Church",
+      "desc": "The Pastor from Boguslavets has responsibility for the ministry at Lukashivka Church at the moment...",
+      "promo": true,
+      "href": "Lukashivka-church.html"
     }
   ]
 }
