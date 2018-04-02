@@ -41,6 +41,13 @@
       "desc": "Kadena Gora is a small village not far from the River Dnieper...",
       "promo": true,
       "href": "Kadena-Gora-church.html"
+    },
+    {
+      "src": "images/Denghi-square.jpg",
+      "title": "Denghi Church",
+      "desc": "There is a small group in this village which has been meeting every Sunday for several years...",
+      "promo": true,
+      "href": "Denghi-church.html"
     }
   ]
 }
